@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    display: flex;
+    /* 父级设置flex布局 */
+    /* background: url(https://bpic.588ku.com/back_pic/00/05/89/1456283f07b63a8.jpg) no-repeat;
+    background-size: 100% 100%; */
+}
+
+.login {
+    width: 37.5rem;
+    max-width: 37.5rem;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.title {
+    width: 100%;
+    font-size: 1.125rem;
+    text-align: center;
+    position: relative;
+    /* background-color: white; */
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+}
+
+.title>a {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login>.form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.login>.form>h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0 20px 0;
+}
+
+.login>.form input {
+    display: inline-block;
+    width: 90%;
+    height: 30px;
+    margin: 5px 5%;
+    border: 1px solid blue;
+}
