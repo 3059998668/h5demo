@@ -1,0 +1,8 @@
+article>.footer-fixed-goods {
+    position: fixed;
+    bottom: 0;
+}
+
+article>.footer-fixed-goods ul {
+    display: flex;
+}

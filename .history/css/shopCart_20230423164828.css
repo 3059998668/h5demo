@@ -1,0 +1,150 @@
+article {
+    /* 购物车的比较特殊 */
+    margin-bottom: 120px !important;
+}
+
+.shop-cart {
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+/* 搜索 */
+
+.shop-cart>.shop-cart-search {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    /* border-radius: 10px; */
+    padding: 5px 5px;
+    display: flex;
+}
+
+.shop-cart>.shop-cart-search>input[type="search"] {
+    width: 80%;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    flex: 8.5;
+}
+
+.shop-cart>.shop-cart-search>input[type="submit"] {
+    padding: 4px 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    flex: 1.5;
+    margin: 0 10px 0 5px;
+}
+
+
+/* 列表 */
+
+.shop-cart>.shop-cart-list {
+    /* box-sizing: border-box; */
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    padding: .625rem;
+    background-color: white;
+    border-radius: 1.25rem;
+}
+
+.shop-cart>.shop-cart-list>.shop-cart-checkbox {
+    flex: 0.6;
+    position: relative;
+}
+
+.shop-cart>.shop-cart-list>.shop-cart-checkbox>input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-cart>.shop-cart-list>.list-img {
+    flex: 2;
+}
+
+.shop-cart>.shop-cart-list>.list-img>img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.shop-cart>.shop-cart-list>.list-title {
+    flex: 7;
+}
+
+
+/* 商品全选-结算 */
+
+.goods {
+    position: fixed;
+    width: 100%;
+    min-width: 23.4375rem;
+    max-width: 37.5rem;
+    background-color: white;
+    bottom: 53px;
+    /* left: 0;  这里不要设置left的值*/
+    padding: 10px 0;
+    display: flex;
+}
+
+.goods>.goods-checkall {
+    flex: 3;
+}
+
+.goods>.goods-checkall>input {
+    margin: 10px;
+    /* 圆形的复选框样式在reset.css里 */
+}
+
+.goods>.goods-checkall>span {
+    color: #777;
+}
+
+
+/* 合计 */
+
+.goods>.goods-all-price {
+    flex: 4;
+    text-align: right;
+    line-height: 36px;
+    padding-right: 20px;
+}
+
+.goods>.goods-all-price i:nth-child(1) {
+    margin: 0 2px 0 5px;
+    color: orangered;
+}
+
+.goods>.goods-all-price .i-money {
+    font-size: 25px;
+    color: orangered;
+}
+
+
+/* 结算 */
+
+.goods>.goods-all-money {
+    width: 100%;
+    flex: 3;
+}
+
+.goods>.goods-all-money>a {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    /* position: absolute;
+    right: 5px; */
+}

@@ -1,0 +1,105 @@
+/* 第一部份 用户基本信息 */
+
+.info {
+    width: 100%;
+    background-color: coral;
+    border-radius: 0 0 25px 25px;
+}
+
+.info>header {
+    /* text-align: center; */
+    color: white;
+}
+
+.info>.info-user {
+    display: flex;
+}
+
+.info>.info-user>.nameimg {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.info>.info-user>.nameimg>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info>.info-user>.info-username {
+    flex: 7.5;
+    margin: 10px 0;
+    color: white;
+}
+
+.info>.info-user>.set {
+    flex: 1.5;
+}
+
+.info>.info-user>.set>a {
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin: 25px 0;
+}
+
+.info>.info-user>.info-username>span {
+    display: block;
+}
+
+.info>.info-user>.info-username>span:nth-child(1) {
+    font-weight: bold;
+}
+
+.info>.info-user>.info-username>span:nth-child(2) {}
+
+.info>.bj {
+    width: 100%;
+    height: 55px;
+    background: url(http://shopping.xgewl.top/src/images/gbg.png) no-repeat;
+    background-size: cover;
+}
+
+
+/* 第二部分 订单信息 */
+
+.order {
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    top: -20px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    font-size: .875rem;
+}
+
+.order>a {
+    flex: 1;
+    padding: 10px;
+}
+
+.order>a>span {
+    display: block;
+    text-align: center;
+}
+
+
+/* 第三部分 设置关于联系等信息 */
+
+.use {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.use>a {
+    display: block;
+    width: 100%;
+    background-color: white;
+    border: 0.5px solid #f6f6f6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}

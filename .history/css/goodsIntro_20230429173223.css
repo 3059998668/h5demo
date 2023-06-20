@@ -1,0 +1,30 @@
+/* footer的样式 */
+
+article>.footer-fixed-goods {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 37.5rem;
+    min-width: 23.4375rem;
+}
+
+article>.footer-fixed-goods ul {
+    width: 100%;
+    display: flex;
+}
+
+article>.footer-fixed-goods ul>li {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+article>.footer-fixed-goods>ul>.push-goods {
+    background-color: thistle;
+    color: white;
+}
+
+article>.footer-fixed-goods>ul>.buy-goods {
+    background-color: red;
+    color: white;
+}

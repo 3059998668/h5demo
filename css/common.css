@@ -1,0 +1,107 @@
+body {
+    font-size: 1rem;
+}
+
+
+/* 页眉 */
+
+header {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 6px 0;
+}
+
+
+/* 身体内容 */
+
+article {
+    /* 使用flex布局 */
+    display: flex;
+    width: 100%;
+    min-width: 23.4375rem;
+    /* background-color: yellow; */
+    margin-bottom: 53px;
+    overflow: hidden;
+}
+
+article .article-content {
+    width: 37.5rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+
+/* 页脚导航栏 */
+
+footer {
+    width: 100%;
+    min-width: 23.4375rem;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer>.footer-nav {
+    /* width: 37.5rem; */
+    max-width: 37.5rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer>.footer-nav>a {
+    flex: 1;
+    display: block;
+    text-align: center;
+    font-size: .875rem;
+    padding: 5px 0;
+}
+
+
+/* footer>.footer-nav>a {
+    display: block;
+    flex: 1;
+    padding: 5px 10px;
+}
+*/
+
+footer>.footer-nav>a>span {
+    display: block;
+    font-size: .875rem;
+}
+
+
+/* footer>.footer-nav>a>h3 {} */
+
+footer>.footer-nav>a>span::after {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+footer>.footer-nav>a>.home::after {
+    content: '\e64f';
+    color: blue;
+    border: 1px solid blue;
+}
+
+footer>.footer-nav>a>.shop::after {
+    content: '\e63f';
+    color: red;
+    border: 1px solid red;
+}
+
+footer>.footer-nav>a>.cart::after {
+    content: '\e63f';
+    color: green;
+    border: 1px solid green;
+}
+
+footer>.footer-nav>a>.my::after {
+    content: '\e659';
+    color: black;
+    border: 1px solid black;
+}

@@ -1,0 +1,63 @@
+/* banner */
+
+article>.goods-banner {
+    height: 300px;
+}
+
+article>.goods-banner>ul {}
+
+article>.goods-banner>ul>li {}
+
+article>.goods-banner>ul>li>img {
+    height: 300px;
+}
+
+
+/* 商品说明 */
+
+
+/* article>.goods-intro>.goods-show {
+    margin-bottom: 200px;
+} */
+
+
+/* footer的样式 */
+
+article>.footer-fixed-goods {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 37.5rem;
+    min-width: 23.4375rem;
+    background-color: white;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+article>.footer-fixed-goods ul {
+    width: 100%;
+    display: flex;
+}
+
+article>.footer-fixed-goods ul>li {
+    flex: 1.5;
+    text-align: center;
+}
+
+article>.footer-fixed-goods ul>li>span {
+    display: block;
+}
+
+article>.footer-fixed-goods>ul>.push-goods {
+    background-color: thistle;
+    color: white;
+    flex: 3.5;
+    line-height: 42px;
+}
+
+article>.footer-fixed-goods>ul>.buy-goods {
+    background-color: coral;
+    color: white;
+    flex: 3.5;
+    line-height: 42px;
+}

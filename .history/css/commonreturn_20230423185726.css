@@ -1,0 +1,9 @@
+body {
+    display: flex;
+}
+
+article {
+    width: 37.5rem;
+    margin: 0 auto;
+    height: 100vh;
+}
